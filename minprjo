@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE SHOP</title>
+    <link rel="stylesheet" href="miniprjo.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Studio</title>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <!-- Font awesome icons -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="sidebar"></div>
+            <div class="main-content"><h2>Recently Played</h2>
+                <div class="cards-contener">
+                    <div class="card">
+                        <img src="./card1img.jpeg" class="card-img" alt="Card 1">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                </div>
+        
+                <h2>Trending Now Near You</h2>
+                <div class="cards-contener">
+                    <div class="card">
+                        <img src="./card2img.jpeg" class="card-img" alt="Card 2">
+                        <p class="card-titel">Cake for Kids</p>
+                        <p class="card-info">You will love it as it's an egg cake.</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./card5img.jpeg" class="card-img" alt="Card 5">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./card3img.jpeg" class="card-img" alt="Card 3">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card4img.jpeg" class="card-img" alt="Card 4">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card2img.jpeg" class="card-img" alt="Card 2">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./card5img.jpeg" class="card-img" alt="Card 5">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="./card3img.jpeg" class="card-img" alt="Card 3">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                </div>
+        
+                <h2>Speciality</h2>
+                <div class="cards-contener">
+                    <div class="card">
+                        <img src="./card5img.jpeg" class="card-img" alt="Card 5">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card6img.jpeg" class="card-img" alt="Card 6">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./card1img.jpeg" class="card-img" alt="Card 1">
+                        <p class="card-titel">Top Cake</p>
+                        <p class="card-info">This cake is veg and contains natural ingredients.</p>
+                    </div>
+                </div>
+           </div>
+       
+    </body>
+    </html>

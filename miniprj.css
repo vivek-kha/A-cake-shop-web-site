@@ -1,0 +1,150 @@
+main {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Nerko One', cursive;
+    margin: 0;
+    padding: 0;
+    background: url("BACKGROUND.jpg");
+}
+
+.main_box {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: url("BACKGROUND.jpg");
+    width: 300px;
+    height: 100vh;
+}
+
+.sidebar_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transform: translateX(-268px);
+    transition: transform 0.5s ease-in-out;
+}
+
+.sidebar_menu.active {
+    transform: translateX(0);
+}
+
+.btn_one {
+   
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+.btn_two {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #ccc;
+}
+
+.social_media ul {
+ list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media li {
+    margin-right: 20px;
+}
+
+.social_media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social_media a:hover {
+    color: #ccc;
+}
+
+.main-content {
+    padding: 20px;
+    background: url("BACKGROUND.jpg");
+    height: 100vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cards-contener {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-titel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    font-size: 14px;
+    color: #666;
+}
+
+#check:checked ~ .sidebar_menu {
+    transform: translateX(0);
+}
+
+#check:checked ~ .main-content {
+    transform: translateX(300px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
